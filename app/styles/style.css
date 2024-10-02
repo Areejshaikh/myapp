@@ -1,0 +1,30 @@
+/* styles.css */
+.bg-custom {
+    background-image: url('../../public/images/black.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-about {
+    background-image: url('../../public/images/about1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-project {
+    background-image: url('../../public/images/project1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.bg-blog {
+  background-image: url('../../public/images/contect.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.bg-contect {
+  background-image: url(../../public/images/contect1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+  
