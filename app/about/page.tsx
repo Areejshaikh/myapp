@@ -2,15 +2,15 @@ import Image from "next/image"
 import image from "../../public/images/dp.png";
 function About() {
     return (
-        <section className="text-white body-font bg-about">
-            <h2 className="container text-center sm:text-7xl pt-20 ">About Me</h2>
+        <section className="text-white  body-font bg-about">
+            <h2 className="container text-center ml-24 sm:text-7xl pt-20 ">About Me</h2>
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="flex flex-col sm:flex-row mt-8">
                         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                        
                             <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-white">
-                                <Image src={image}
+                                <Image  
+                                    src={image}
                                     alt="Woman"
                                     height={200}
                                     width={200}

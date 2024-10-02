@@ -1,3 +1,5 @@
+import Image from "next/image"
+import image from "../../public/images/computer.jpg"
 function Project() {
   return (
     <section className="text-white body-font bg-project">
@@ -5,11 +7,12 @@ function Project() {
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
           <div className="sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1201x501"
-              />
+              <Image 
+              src={image}
+              className="object-cover object-center h-full w-full"
+              alt="content"
+              width={100}
+              height={100}/>
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
               Buy YouTube Videos
@@ -24,11 +27,12 @@ function Project() {
           </div>
           <div className="sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1202x502"
-              />
+              <Image 
+              src={image}
+              className="object-cover object-center h-full w-full"
+              alt="content"
+              width={100}
+              height={100}/>
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
               The Catalyzer

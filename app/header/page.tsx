@@ -4,7 +4,7 @@ import '../styles/style.css'
 
 function Header() {
     return (
-        <header className="text-slate-50  bg-black">
+        <header className="relative fixed text-slate-50  bg-black">
             <div className="container mx-auto flex flex-wrap p-8 flex-col md:flex-row items-center">
                 <a className="flex title-font font-medium items-center text-slate-50 mb-4 md:mb-0">
 
