@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import Images from '../../public/images/dp.png'
+import Images from '../../../public/images/dp.png'
 
 function Blog() {
   return (
     
+<div id='blog'>
 <section className="text-white bg-blog  body-font  mt-2">
 <div className="container px-5 py-24 mx-auto">
 <h3 className='text-5xl text-center mb-20'>Our Blocks</h3>
@@ -63,6 +64,7 @@ function Blog() {
   </div>
 </div>
 </section>
+</div>
 
 );
 }

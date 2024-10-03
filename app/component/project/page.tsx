@@ -1,8 +1,10 @@
 import Image from "next/image"
-import image from "../../public/images/computer.jpg"
+import image from "../../../public/images/two.jpg"
 function Project() {
   return (
-    <section className="text-white body-font bg-project">
+ <div id="project">
+     <section className="text-white body-font bg-project">
+     <h3 className='text-5xl text-center pt-20 '>Project</h3>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
           <div className="sm:w-1/2 mb-10 px-4">
@@ -11,8 +13,8 @@ function Project() {
               src={image}
               className="object-cover object-center h-full w-full"
               alt="content"
-              width={100}
-              height={100}/>
+              
+/>
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
               Buy YouTube Videos
@@ -31,8 +33,7 @@ function Project() {
               src={image}
               className="object-cover object-center h-full w-full"
               alt="content"
-              width={100}
-              height={100}/>
+              />
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
               The Catalyzer
@@ -48,6 +49,7 @@ function Project() {
         </div>
       </div>
     </section>
+ </div>
 
   )
 }

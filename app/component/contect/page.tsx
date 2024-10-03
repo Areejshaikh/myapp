@@ -7,7 +7,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Contect() {
     return (
-        <section className="text-gray-600 body-font bg-contect ">
+<div id="contect">
+<section className="text-white body-font bg-contect ">
+<h3 className='text-5xl text-center pt-20 '>Contect</h3>
             <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
 
@@ -98,6 +100,7 @@ function Contect() {
                 </div>
             </div>
         </section>
+</div>
 
     )
 

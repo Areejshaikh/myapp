@@ -1,21 +1,26 @@
 import Image from "next/image"
-import '../app/styles/style.css';
+// import Header from "./component/header/page"
+import About from "./component/about/page"
+import Blog from "./component/blog/page"
+import Project from "./component/project/page"
+import Contect from "./component/contect/page"
+import Home1 from "./component/home1/page"
+
 
 function Home() {
   return (
-    <section className="h-screen bg-custom text-slate-50">
-      <div className="px-5 py-24  items-center">
-        <div className="items-center text-center">
-          <h1 className="title-font sm:text-7xl mt-16  mb-8 font-medium text-slate-50">Areej Zaheer
-          </h1>
-          <p className="mb-8 leading-relaxed">I am Frounted Developer.</p>
-        </div>
-        </div>
-    </section>
+    <div>
+      {/* <Header/> */}
+      <Home1/>
+      <About/>
+      <Blog/>
+      <Project/>
+      <Contect/>
+    </div>
+
   )
 }
 
 export default Home
-
 
 

@@ -1,9 +1,10 @@
 import Image from "next/image"
-import image from "../../public/images/dp.png";
+import image from "../../../public/images/dp.png";
 function About() {
     return (
-        <section className="text-white  body-font bg-about">
-            <h2 className="container text-center ml-24 sm:text-7xl pt-20 ">About Me</h2>
+       <div id="about">
+         <section className="text-white  body-font bg-about">
+            <h2 className="container text-center  sm:text-7xl pt-20 ">About Me</h2>
             <div className="container px-5 py-24 mx-auto flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="flex flex-col sm:flex-row mt-8">
@@ -48,6 +49,7 @@ function About() {
                 </div>
             </div>
         </section>
+       </div>
 
 
     )
